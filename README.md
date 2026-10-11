@@ -1,8 +1,8 @@
 # Stream Vessel AI integrations
 
-Public AI integrations for Stream Vessel: MCP configurations, plugins, skills, and examples for working with S3-compatible storage.
+Public AI integrations for Stream Vessel: MCP configurations, plugins, skills, and examples for working with files and data across connected services.
 
-The [Stream Vessel plugin](plugins/streamvessel/README.md) connects ChatGPT and Codex to your storage through the hosted MCP server at https://mcp.streamvessel.com.
+The [Stream Vessel plugin](plugins/streamvessel/README.md) connects ChatGPT and Codex to your connected services through the hosted MCP server at https://mcp.streamvessel.com.
 
 ## Integrations
 
