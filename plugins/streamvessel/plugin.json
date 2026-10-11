@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "streamvessel",
   "version": "0.1.0",
-  "description": "Browse and manage objects in your S3-compatible storage through Stream Vessel.",
+  "description": "Work with files and data across connected services through Stream Vessel.",
   "author": {
     "name": "Stream Vessel",
     "url": "https://streamvessel.com"
@@ -10,17 +10,18 @@
   "homepage": "https://streamvessel.com/mcp",
   "repository": "https://github.com/streamvessel/ai-integrations",
   "keywords": [
-    "storage",
-    "s3",
-    "objects",
+    "files",
+    "data",
+    "integrations",
+    "mcp",
     "streamvessel"
   ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Stream Vessel",
-        "shortDescription": "Browse and manage your S3-compatible storage.",
-        "longDescription": "Connect your Stream Vessel account to browse buckets, find and read objects, inspect storage usage, and manage files across your storage connections.",
+        "shortDescription": "Work with files and data across connected services.",
+        "longDescription": "Connect your Stream Vessel account to work with files and data across connected services. Available tools and operations depend on the connected service and the access you grant.",
         "developerName": "Stream Vessel",
         "category": "Productivity",
         "capabilities": [
@@ -32,9 +33,9 @@
         "privacyPolicyURL": "https://streamvessel.com/privacy",
         "termsOfServiceURL": "https://streamvessel.com/tos",
         "defaultPrompt": [
-          "List my storage connections and the buckets on each.",
-          "Find the largest objects in a bucket I choose.",
-          "Help me organize files in my storage."
+          "List my available connections.",
+          "Help me find a file in a connection I choose.",
+          "Help me organize files in a connection I choose."
         ]
       }
     }
