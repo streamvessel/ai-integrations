@@ -22,11 +22,16 @@ Try listing connections, finding a file, sampling a large text file, and plannin
 From the repository root:
 
 ```sh
-mkdir -p dist
-(cd plugins/streamvessel && zip -FS -r ../../dist/streamvessel-plugin-0.2.1.zip plugin.json mcp.json LICENSE skills)
+python3 scripts/build_plugin.py
 ```
 
 The ZIP preserves the skill directory and places the manifests at its root. Verify OAuth, listing details, and any required review information before uploading through the plugin submission portal. Publication follows approval.
+
+## Release
+
+Update the version in `plugin.json`, then open **Actions → Release Stream Vessel plugin → Run workflow** and choose the branch or tag to release. The workflow validates the package, builds the ZIP, and creates a GitHub release named `Stream Vessel <version>` with a `streamvessel-v<version>` tag and the ZIP attached.
+
+Releases are drafts by default. Uncheck **Create a draft release for review** to publish the GitHub release immediately. Existing version tags are never replaced; use a new version for changes. Download the ZIP from the release for submission to the plugin directory. This workflow does not submit or publish the plugin to ChatGPT or Codex.
 
 See the official [packaging guide](https://developers.openai.com/plugins/build/plugins) and [submission guide](https://developers.openai.com/plugins/deploy/submission).
 
