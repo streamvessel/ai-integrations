@@ -9,6 +9,7 @@ The [Stream Vessel plugin](plugins/streamvessel/README.md) connects ChatGPT and 
 - [Stream Vessel plugin for ChatGPT and Codex](plugins/streamvessel/README.md): setup, testing, and packaging instructions.
 - [Plugin manifest](plugins/streamvessel/plugin.json): plugin identity and listing metadata.
 - [MCP configuration](plugins/streamvessel/mcp.json): Streamable HTTP connection with OAuth authentication.
+- [Stream Vessel skill](plugins/streamvessel/skills/streamvessel/SKILL.md): workflows for exploring connections, finding and inspecting files, and organizing files and data.
 
 ## License
 
