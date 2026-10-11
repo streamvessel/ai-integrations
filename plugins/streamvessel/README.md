@@ -2,7 +2,7 @@
 
 Plugin package for ChatGPT and Codex, connecting to the hosted Stream Vessel MCP server at https://mcp.streamvessel.com.
 
-Browse storage connections and buckets, find and read objects, inspect storage usage, and manage objects in S3-compatible storage. Available operations depend on the access granted by the user.
+Work with files and data across your connected services through Stream Vessel. The current MCP tools let you browse storage connections and buckets, find and read objects, inspect usage, and manage files. Available operations depend on the connected service and the access granted by the user.
 
 ## Package
 
