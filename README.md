@@ -2,24 +2,13 @@
 
 Public AI integrations for Stream Vessel: MCP configurations, plugins, skills, and examples for working with S3-compatible storage.
 
-This repository starts with the [Stream Vessel plugin](plugins/streamvessel/README.md) for ChatGPT and Codex. The MCP server is hosted separately at https://mcp.streamvessel.com.
+The [Stream Vessel plugin](plugins/streamvessel/README.md) connects ChatGPT and Codex to your storage through the hosted MCP server at https://mcp.streamvessel.com.
 
-## Repository layout
+## Integrations
 
-- `plugins/streamvessel/`: plugin manifest, MCP configuration, documentation, and license.
-- Additional skills and examples can be added as they become available.
-
-## Create the public GitHub repository
-
-Run from this repository with GitHub CLI authenticated as `isalexlog` and access to the organization:
-
-```sh
-gh repo create streamvessel/ai-integrations --public --source=. --remote=origin --description 'Public AI integrations for Stream Vessel: MCP configurations, plugins, skills, and examples for working with S3-compatible storage.'
-git remote set-url origin git@github.com-isalexlog:streamvessel/ai-integrations.git
-git push -u origin main
-```
-
-Repository creation requires GitHub API authentication. The SSH alias selects the personal account for pushes.
+- [Stream Vessel plugin for ChatGPT and Codex](plugins/streamvessel/README.md): setup, testing, and packaging instructions.
+- [Plugin manifest](plugins/streamvessel/plugin.json): plugin identity and listing metadata.
+- [MCP configuration](plugins/streamvessel/mcp.json): Streamable HTTP connection with OAuth authentication.
 
 ## License
 
