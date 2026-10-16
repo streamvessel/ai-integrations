@@ -5,7 +5,7 @@ The hosted server is `https://mcp.streamvessel.com` (Streamable HTTP, OAuth). Th
 | Catalog | Status | Listing | How it is maintained |
 |---|---|---|---|
 | Claude Connectors Directory | Listed | | Anthropic review |
-| Official MCP Registry | Pending | | `server.json` in this repo, published with `mcp-publisher` |
+| Official MCP Registry | Listed | [io.github.streamvessel/streamvessel](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.streamvessel/streamvessel) | `server.json` in this repo, published with `mcp-publisher` |
 | GitHub MCP registry | Pending | | Reads the official registry |
 | PulseMCP | Pending | | Reads the official registry; manual submissions paused |
 | ChatGPT plugin directory | Pending | | Release ZIP from this repo, OpenAI submission portal |
@@ -20,6 +20,6 @@ The hosted server is `https://mcp.streamvessel.com` (Streamable HTTP, OAuth). Th
 Bump `version` in `server.json` for every change; the registry never replaces a published version.
 
 ```sh
-mcp-publisher login github   # account must be a public member of the streamvessel org
+mcp-publisher login github --token "$(gh auth token)"   # needs an owner of the streamvessel org; the device-flow login cannot see org roles (modelcontextprotocol/registry#1649)
 mcp-publisher publish
 ```
