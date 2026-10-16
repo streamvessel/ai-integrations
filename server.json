@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.streamvessel/streamvessel",
+  "title": "Stream Vessel",
+  "description": "Browse, upload, download, copy, move and share files in your own S3-compatible buckets.",
+  "websiteUrl": "https://streamvessel.com/mcp",
+  "repository": {
+    "url": "https://github.com/streamvessel/ai-integrations",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.streamvessel.com"
+    }
+  ]
+}
