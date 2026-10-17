@@ -12,8 +12,8 @@ The hosted server is `https://mcp.streamvessel.com` (Streamable HTTP, OAuth). Th
 | Smithery | Listed | [stream-vessel/sv-mcp](https://smithery.ai/servers/stream-vessel/sv-mcp) | Smithery account; it scans the live server |
 | Glama | Listed | [com.streamvessel.mcp/stream-vessel](https://glama.ai/mcp/connectors/com.streamvessel.mcp/stream-vessel) | Glama account; connector form, claimed via domain or GitHub org |
 | mcp.so | Skipped | | Listing a remote server needs a paid submission |
-| punkpeye/awesome-remote-mcp-servers | Pending | | Pull request |
-| jaw9c/awesome-remote-mcp-servers | Pending | | Pull request |
+| punkpeye/awesome-remote-mcp-servers | Pending | [PR #2061](https://github.com/punkpeye/awesome-remote-mcp-servers/pull/2061) | Pull request; needs the Glama connector badge and a star on the repo |
+| jaw9c/awesome-remote-mcp-servers | Pending | [PR #1357](https://github.com/jaw9c/awesome-remote-mcp-servers/pull/1357) | Pull request |
 
 ## Publishing to the official registry
 
