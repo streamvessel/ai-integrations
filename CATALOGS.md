@@ -18,7 +18,7 @@ The hosted server is `https://mcp.streamvessel.com` (Streamable HTTP, OAuth). Th
 | MCP Market | Skipped | | Remote servers only get the paid listing |
 | Cursor Directory | Listed | [stream-vessel](https://cursor.directory/plugins/stream-vessel) | Signed-in submission; verification requested |
 | LobeHub | Skipped | | No working submission path |
-| Docker MCP Catalog | Pending | [PR #5795](https://github.com/docker/mcp-registry/pull/5795) | Pull request to docker/mcp-registry; sign-in needs `https://mcp.docker.com/oauth/callback` allowed (sv-be #360) |
+| Docker MCP Catalog | Pending | [PR #5795](https://github.com/docker/mcp-registry/pull/5795) | Pull request to docker/mcp-registry; Docker Desktop signs in through `https://mcp.docker.com/oauth/callback` |
 | Cline MCP Marketplace | Blocked | | Cline signs in through a per-server `vscode://` callback the allowlist does not accept |
 | Goose extensions | Skipped | | Lists only locally installed servers |
 | punkpeye/awesome-mcp-servers | Skipped | | Remote-only servers belong in awesome-remote-mcp-servers |
