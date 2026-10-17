@@ -14,6 +14,10 @@ The hosted server is `https://mcp.streamvessel.com` (Streamable HTTP, OAuth). Th
 | mcp.so | Skipped | | Listing a remote server needs a paid submission |
 | punkpeye/awesome-remote-mcp-servers | Pending | [PR #2061](https://github.com/punkpeye/awesome-remote-mcp-servers/pull/2061) | Pull request; needs the Glama connector badge and a star on the repo |
 | jaw9c/awesome-remote-mcp-servers | Pending | [PR #1357](https://github.com/jaw9c/awesome-remote-mcp-servers/pull/1357) | Pull request |
+| mcpservers.org | Submitted | | Free submit form, contact support@streamvessel.com; review within two weeks |
+| MCP Market | Skipped | | Remote servers only get the paid listing |
+| Cursor Directory | Pending | | Needs a GitHub or Google sign-in to submit; Cursor's OAuth callback is not allowed yet |
+| LobeHub | Skipped | | No working submission path |
 
 ## Publishing to the official registry
 
